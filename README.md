@@ -1,4 +1,4 @@
-# Quotit
+# Git-Insta
 
 #### AUTHOR **{Maxwell Munene}**
 
