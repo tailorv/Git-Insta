@@ -5,8 +5,8 @@
 This is a simple WEB application where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories. This project was generated with Angular CLI.
 
 
-![USER INTERFACE](src/assets/Landingpage.png) (LANDING PAGE)
-![USER INTERFACE](src/assets/homepage2.png) (USERS PROFILE)
+![USER INTERFACE](src/assets/home.png) (LANDING PAGE)
+![USER INTERFACE](src/assets/profile.png) (GIT PROFILE)
 
 
 ## Technical Requirements
