@@ -1,9 +1,11 @@
 .wrapper{
     background: url(../../assets/home.jpg);
     background-size: contain;
-    background-repeat:repeat;
+    background-repeat: inherit;
     height:90vh;
-    width:193.5vh;
+    width:192.5vh;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 ul li a{
     text-align: center;
