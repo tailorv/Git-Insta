@@ -2,17 +2,17 @@
     <app-landing></app-landing>
     <div class="container">
         <div class="row">
-            <div class="col-sm-7 py-5">
+            <div class="col-sm-8 py-5">
                 <form action="">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search git Users with username"
+                        <input type="text" class="form-control" placeholder="Type Username ........."
                             [(ngModel)]="username" name="username">
                       
                     </div>
                 </form>
             </div>
-            <div class="col-sm-3 px-0 py-5">
-                <button class="btn btn-primary" (click)="findProfile()">Search Repository</button>
+            <div class="col-sm-3 px-5 py-5">
+                <button class="btn btn-primary" (click)="findProfile()">Search User</button>
             </div>
         </div>
     </div>
@@ -25,10 +25,10 @@
             </div>
             <div class="panel-body">
                 <div class="row">
-                    <div class="col-sm-3">
-                        <img src="{{profile.avatar_url}}" class="img-rounded" alt="Github profile">
+                    <div class="col-3">
+                        <img src="{{profile.avatar_url}}" class="img-circle img-thumbnail" alt="Github profile">
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-2">
                         <ul class="list-group">
                             <li class="list-group-item" *ngIf="profile.bio">{{profile.bio}}</li>
                             <li class="list-group-item" *ngIf="profile.email"><a href="">{{profile.email}}</a></li>
@@ -36,15 +36,18 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-5">
+                    <div class="col">
                         <div>
                             <p>
                                 <span class="label label-default"><button style="background-color: black;" class="btn btn-success">{{ profile.followers}} Followers</button></span>
                                 <span class="label label- primary"><button style="background-color: black;" class="btn btn-info mx-1">{{ profile.following}} Following</button> </span>
                                 <!-- <span class="label label-success"><button class="btn btn-danger">{{ profile.public_gists}} Public Gists</button></span> -->
-                                <span class="label label-info"><button style="background-color: black;" class="btn btn-warning mx-2"> {{ profile.public_repos}} Public Repositories</button></span>
+                                <span class="label label-info"><button style="background-color: black; color: rgb(255, 255, 255);" class="btn btn-warning mx-2"> {{ profile.public_repos}} Public Repositories</button></span>
+                                <span>
+                                    <a href="" ><button style="background-color: black;" class=" btn btn-success">Explore GitHub Profile</button></a>
+                                </span>
                             </p>
-                            <p><a href="" ><button style="background-color: black;" class=" btn btn-success">Explore GitHub Profile</button></a></p>
+                            <p></p>
                                 
                             <div class="panel panel-default">
                                 <div class="panel-heading">
@@ -65,16 +68,13 @@
                                         Created: {{repo.created_at| date}}
                                     </p>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                       
             </div>
         </div>
     </div>
     <footer>
-        <p class="text-center py-3">
-        Built by @ Maxwell Munene
+        <p class="text-center py-3" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-weight: bolder; font-size: smaller;">
+        2021 Built & Reserved @ Maxwell Munene 
         </p>
     </footer>
 </div>

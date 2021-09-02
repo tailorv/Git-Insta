@@ -9,7 +9,7 @@ This is a simple WEB application where users may enter a GitHub username into a 
 ![USER INTERFACE](src/assets/homepage2.png) (USERS PROFILE)
 
 
-##Technical Requirements
+## Technical Requirements
 * Project must contain a well-designed landing page that displays your GitHub information such 	as your username, your profile photos and a list of your repositories.
 * Place access key inside the environment.ts file and place it inside the gitignore file.
 * Create a HTTP service that uses a promise to make the requests to the GitHub API.
@@ -28,7 +28,7 @@ This is a simple WEB application where users may enter a GitHub username into a 
 
 
 ## BDD
-* Use the GitHub API (Links to an external site.)Links to an external site. to retrieve 	this information. This API allows 5,000 requests per hour with an API key, but only 60 	requests per hour _without_ one. Everyone is therefore required to use their own unique 	key. GitHub refers to these keys as "Personal Access Tokens".
+* Use the GitHub API (Links to an external site.)Links to an external site. to retrieve 	this information. This API allows 5,000 requests per hour with an API key, but only 60 	requests per hour _without_ one.GitHub refers to these keys as "Personal Access Tokens".
 
 ## Technologies Used.
  * ANGULAR
