@@ -31,7 +31,7 @@ ul li a{
 .nav-link:hover{
     color: white !important;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 500;
     font-weight: bolder;
 }
 .navlink >a{
