@@ -1,4 +1,4 @@
-# Git-Insta
+# Git-Insta.
 
 #### AUTHOR **{Maxwell Munene}**
 
@@ -9,7 +9,7 @@ This is a simple WEB application where users may enter a GitHub username into a 
 ![USER INTERFACE](src/assets/profile.png) (GIT PROFILE)
 
 
-## Technical Requirements
+## Technical Requirements.
 * Project must contain a well-designed landing page that displays your GitHub information such 	as your username, your profile photos and a list of your repositories.
 * Place access key inside the environment.ts file and place it inside the gitignore file.
 * Create a HTTP service that uses a promise to make the requests to the GitHub API.
@@ -25,9 +25,11 @@ This is a simple WEB application where users may enter a GitHub username into a 
 
 ## Setup/Installation Requirements.
 * To rebuild this app run **git clone https://github.com/tailorv/Git-Insta.git**  on your command line.
+* cd Git-Insta.
+* ls .
 
 
-## BDD
+## BDD.
 * Use the GitHub API (Links to an external site.)Links to an external site. to retrieve 	this information. This API allows 5,000 requests per hour with an API key, but only 60 	requests per hour _without_ one.GitHub refers to these keys as "Personal Access Tokens".
 
 ## Technologies Used.
@@ -37,9 +39,10 @@ This is a simple WEB application where users may enter a GitHub username into a 
  * BOOTSTRAP
 
 
-## Support and contact details
+## Support and contact details.
 { email maxwell.munene@student.moringaschool.com}
-### License
+
+### License.
 {MIT License
 
 Copyright (c) 2021
@@ -64,5 +67,5 @@ SOFTWARE.
 }
 Copyright (c) {2021} **{Maxwell Munene}**
 
-## Further help
+## Further help.
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
